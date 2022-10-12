@@ -1,0 +1,77 @@
+# PracticeKillEffects Config
+# Made By commandf1
+
+# 设置
+settings:
+  # 没有死亡信息
+  no-death-message: true
+  # 禁止误报的踢出(比如 "Kicked for spamming" 或 "disconnect.spam")
+  no-bad-kick: true
+
+# 杀死玩家时候是否启用慢动作
+kill-slowly:
+  # 是否启用
+  enable: true
+  # 持续时间
+  continue-time: 35
+
+# 自动丢弃空药水瓶
+auto-drop-empty-bottle:
+  # 是否启用
+  enable: true
+
+# 自动扣L
+auto-L:
+  # 是否启用
+  enable: false
+  # 扣字的信息
+  message: "%damage% LLL, %player% is your father!"
+
+# 指定掉落的物品
+type-item-drop:
+  # 是否启用
+  enable: true
+  # 仅限掉落的物品
+  items:
+    - "IRON_SWORD"
+    - "WOOD_SWORD"
+    - "STONE_SWORD"
+    - "GOLD_SWORD"
+    - "DIAMOND_SWORD"
+    - "LEATHER_HELMET"
+    - "CHAINMAIL_HELMET"
+    - "IRON_HELMET"
+    - "DIAMOND_HELMET"
+    - "GOLD_HELMET"
+    - "LEATHER_CHESTPLATE"
+    - "CHAINMAIL_CHESTPLATE"
+    - "IRON_CHESTPLATE"
+    - "DIAMOND_CHESTPLATE"
+    - "GOLD_CHESTPLATE"
+    - "LEATHER_LEGGINGS"
+    - "CHAINMAIL_LEGGINGS"
+    - "IRON_LEGGINGS"
+    - "DIAMOND_LEGGINGS"
+    - "GOLD_LEGGINGS"
+    - "LEATHER_BOOTS"
+    - "CHAINMAIL_BOOTS"
+    - "IRON_BOOTS"
+    - "DIAMOND_BOOTS"
+    - "GOLD_BOOTS"
+    - "ENDER_PEARL"
+
+# 玩家受伤会有血液冒出
+spawn-blood-on-damage:
+  # 是否启用
+  enable: true
+  # 血量大小
+  size: 5
+  # 仅仅玩家才会冒血
+  player-only: true
+
+# 玩家死亡后展示死亡头颅
+skull-blood-spawn:
+  # 是否启用
+  enable: true
+  # 持续时间
+  time: 5

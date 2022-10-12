@@ -1,0 +1,5 @@
+name: PracticeKillEffects
+authors:
+  - commandf1
+main: cc.prefermc.killeffects.PracticeKillEffects
+version: 1.4-SNAPSHOT

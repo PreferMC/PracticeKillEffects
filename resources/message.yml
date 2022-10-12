@@ -1,0 +1,34 @@
+not-a-player-message: "&cYou are not a player!"
+no-permission-message: "&cYou do not have enough permission!"
+no-sub-command-message: "§cThis sub command is not found!"
+disabled-effect-use: "&cThis effect has been disabled!"
+choose-message: "&aYou have chosen the %choice%"
+ui:
+  true: "&a&lTrue"
+  false: "&c&lFalse"
+  kill-slowly: "Kill Slowly"
+  kill-slowly-lore:
+    - ""
+    - "&bWhen you kill a player, you will feel time slowly"
+    - ""
+  auto-drop-empty-bottle: "Auto Drop Empty Bottle"
+  auto-drop-empty-bottle-lore:
+    - ""
+    - "&bWhat will drop empty bottles when you drink"
+    - ""
+  auto-l: "Auto L"
+  auto-l-lore: 
+  - ""
+  - "&bWhen you kill a player, you speak L"
+  - ""
+  type-item-drop: "Type Item Drop"
+  type-item-drop-lore:
+    - ""
+    - "&bWhen you kill a player, the player will drop type items"
+    - ""
+  spawn-blood-on-damage: "Spawn Blood On Damage"
+  skull-blood-spawn: "Skull Blood Spawn"
+  skull-blood-spawn-lore:
+    - ""
+    - "&bSpawn blood and a skull when player dead"
+    - ""
