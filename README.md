@@ -18,5 +18,12 @@ This plugin is made for practice server to show kill
 effects, you can put it in your server to be
 attractive to players.  
 
+> How to build
+
+1. Clone this project
+2. Open with your IDE
+3. Add artifacts to build the plugin
+4. Get the plugin
+
 #
 ###### Powered By PreferMC

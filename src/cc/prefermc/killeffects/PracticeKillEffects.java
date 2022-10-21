@@ -3,14 +3,13 @@ package cc.prefermc.killeffects;
 import cc.prefermc.killeffects.commands.EffectSettingsCommand;
 import cc.prefermc.killeffects.commands.MainCommand;
 import cc.prefermc.killeffects.listeners.PlayerListener;
-import cc.prefermc.killeffects.utils.VerificationUtils;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.core.Filter;
 import org.apache.logging.log4j.core.LogEvent;
 import org.apache.logging.log4j.message.Message;
-import org.bukkit.Bukkit;
+import org.bukkit.plugin.java.JavaPlugin;
 import space.commandf1.fasterlib.api.command.CommandManager;
 import space.commandf1.fasterlib.api.config.Config;
 import space.commandf1.fasterlib.api.listener.ListenerManager;
@@ -27,7 +26,7 @@ import java.io.OutputStream;
 import java.nio.file.Files;
 import java.util.logging.Logger;
 
-public class PracticeKillEffects extends VerificationUtils {
+public class PracticeKillEffects extends JavaPlugin {
     private static PracticeKillEffects instance;
     private static Logger logger;
     private static Config config;
@@ -48,6 +47,7 @@ public class PracticeKillEffects extends VerificationUtils {
         instance = this;
         logger = this.getLogger();
 
+        /*
         // verify
         if (!verify(getHWID())) {
             logger.severe("Can not verify your hwid, please try again later.");
@@ -60,6 +60,9 @@ public class PracticeKillEffects extends VerificationUtils {
         check(); // third one
 
         logger.info("Verify successfully, version: " + getDescription().getVersion());
+
+         // no need
+         */
         // setup lib
         ((org.apache.logging.log4j.core.Logger) LogManager.getRootLogger()).addFilter(new Filter() {
             public Result filter(LogEvent event) {

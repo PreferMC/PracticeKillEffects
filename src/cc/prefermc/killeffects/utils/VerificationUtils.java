@@ -8,6 +8,7 @@ import cc.prefermc.killeffects.PracticeKillEffects;
 import java.security.MessageDigest;
 import java.util.logging.Logger;
 
+@Deprecated
 public class VerificationUtils extends JavaPlugin {
     public VerificationUtils() { // first one
         if (verify(getHWID())) {
@@ -19,7 +20,7 @@ public class VerificationUtils extends JavaPlugin {
         Bukkit.getPluginManager().disablePlugin(this);
     }
 
-    public static final String VERIFICATION_LINK = "http://39.103.149.33/verification/PracticeKillEffects/list";
+    public static final String VERIFICATION_LINK = "null";
 
     public static String getHWID() {
         try {
